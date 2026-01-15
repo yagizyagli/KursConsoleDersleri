@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_1_Aritmetik_Operator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_2_Karsilastirma_Operatorleri", "260115_2_Karsilastirma_Operatorleri\260115_2_Karsilastirma_Operatorleri.csproj", "{EF03FBA1-CF68-4AA0-80B6-AA90874390F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_3_Mantiksal_Operatorler", "260115_3_Mantiksal_Operatorler\260115_3_Mantiksal_Operatorler.csproj", "{A5EE4B82-A226-4814-B5BB-373FDC458C9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EF03FBA1-CF68-4AA0-80B6-AA90874390F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF03FBA1-CF68-4AA0-80B6-AA90874390F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF03FBA1-CF68-4AA0-80B6-AA90874390F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EE4B82-A226-4814-B5BB-373FDC458C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EE4B82-A226-4814-B5BB-373FDC458C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EE4B82-A226-4814-B5BB-373FDC458C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EE4B82-A226-4814-B5BB-373FDC458C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +82,7 @@ Global
 		{8561BF5E-DE27-4351-AF00-F2F2035D4DB0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6C1B43C1-4A48-4851-AED0-2455EA63B00F} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 		{EF03FBA1-CF68-4AA0-80B6-AA90874390F6} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
+		{A5EE4B82-A226-4814-B5BB-373FDC458C9E} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {345E22DB-1519-4F00-8736-69F542B36A9D}
