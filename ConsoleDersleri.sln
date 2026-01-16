@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_3_Mantiksal_Operator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260115_4_Ornek_Operatorler", "260115_4_Ornek_Operatorler\260115_4_Ornek_Operatorler.csproj", "{98AB3B3E-C1A4-406A-810B-B0AA9210BAF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260116_1_Atama_Operatorleri", "260116_1_Atama_Operatorleri\260116_1_Atama_Operatorleri.csproj", "{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{98AB3B3E-C1A4-406A-810B-B0AA9210BAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98AB3B3E-C1A4-406A-810B-B0AA9210BAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98AB3B3E-C1A4-406A-810B-B0AA9210BAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{EF03FBA1-CF68-4AA0-80B6-AA90874390F6} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 		{A5EE4B82-A226-4814-B5BB-373FDC458C9E} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 		{98AB3B3E-C1A4-406A-810B-B0AA9210BAF3} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
+		{F7DDA2EA-0388-4956-B8A4-64CE3A3D3AD3} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {345E22DB-1519-4F00-8736-69F542B36A9D}
