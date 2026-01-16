@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260108_4_metinsel_degiskenl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2601008_2_Tam_Sayi_Degiskenler", "..\2601008_2_Tam_Sayi_Degiskenler\2601008_2_Tam_Sayi_Degiskenler\2601008_2_Tam_Sayi_Degiskenler.csproj", "{4D841955-5E60-B38B-C8AC-F94C0BFC22E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "260116_2_Odevler", "260116_2_Odevler\260116_2_Odevler.csproj", "{DDD18A58-004C-40EA-9CCF-91CE46E74BE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{4D841955-5E60-B38B-C8AC-F94C0BFC22E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D841955-5E60-B38B-C8AC-F94C0BFC22E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D841955-5E60-B38B-C8AC-F94C0BFC22E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD18A58-004C-40EA-9CCF-91CE46E74BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD18A58-004C-40EA-9CCF-91CE46E74BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD18A58-004C-40EA-9CCF-91CE46E74BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD18A58-004C-40EA-9CCF-91CE46E74BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{3AD5FE16-C4A6-0194-8004-BC408A4BC847} = {CF7B8F55-27F1-4998-AE1C-09321BC92B76}
 		{6D5840EB-EA4B-0A90-91AD-B47BFD81FFE6} = {CF7B8F55-27F1-4998-AE1C-09321BC92B76}
 		{4D841955-5E60-B38B-C8AC-F94C0BFC22E3} = {CF7B8F55-27F1-4998-AE1C-09321BC92B76}
+		{DDD18A58-004C-40EA-9CCF-91CE46E74BE3} = {F053FCB4-92B3-4DF2-B232-39D5FDDE935F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {345E22DB-1519-4F00-8736-69F542B36A9D}

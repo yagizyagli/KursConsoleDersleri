@@ -95,12 +95,6 @@
             Console.WriteLine("14125 5'in katı mı?"+kat1%5);
             Console.WriteLine("14125 11'in katı mı?"+kat1%11);
             Console.WriteLine("14125 53'ün katı mı?:"+kat1%53);
-
-
-
-
-
-
         }
     }
 }
