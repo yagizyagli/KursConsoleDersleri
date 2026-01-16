@@ -71,10 +71,33 @@
             // int deger3=deger2++ + 10 //ilkin deger2 değeri deger3  e eşitlenir sonra ++ işlemi deger2 ye uygulanır
             int deger3=++deger2 + 10;//deger2 nin değeri 1 arttırılır ve 10 ile toplanarak deger3 e atanır. diğer artımı yaparak eşitleme yapılır
             Console.WriteLine("++deger1:"+deger3);
+            //**************************************
+            int s1 = 10;
+            int s2 = 20;
+            int toplam = s1 + s2;//30
+            Console.WriteLine("hesaplanan toplam:"+toplam);
+            Console.WriteLine("string toplam:"+s1+s2);
+            Console.WriteLine("Parantez toplamı:"+(s1+s2));
+            Console.WriteLine("çarpım:"+s1*s2);
+            Console.WriteLine("Parantez fark:"+(s1-s2));
+            Console.WriteLine("Bölme"+s1/s2);
+            Console.WriteLine("Mod Alma:"+s1%s2);
+            Console.WriteLine("------------------------------");
+            Console.WriteLine(s1+s2);//30 olacaktır, string bir ifade + işleminden önce yok
+            Console.WriteLine(""+s1+s2);//1020 olacaktır, + işleminden önce "" var
+            //------------------------------------------------------
+            // bölme işlemi için bazı notlar
+            // 10/2->5 10,2 nin katıdır
+            // 14125=>2,3,5,11,53
+            int kat1 = 14125;
+            Console.WriteLine("14125, 2'nin katı mı?:"+kat1%2);
+            Console.WriteLine("14125 3' ün katı mı?:"+kat1%3);
+            Console.WriteLine("14125 5'in katı mı?"+kat1%5);
+            Console.WriteLine("14125 11'in katı mı?"+kat1%11);
+            Console.WriteLine("14125 53'ün katı mı?:"+kat1%53);
 
 
 
-            
 
 
 
