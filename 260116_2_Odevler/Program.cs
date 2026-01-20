@@ -17,6 +17,91 @@
 
 
 
+            Console.WriteLine("1.Sayı:");
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("2.Sayı:");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("3.Sayı:");
+            int sayi3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("4.Sayı:");
+            int sayi4 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("5.Sayı");
+            int sayi5 = int.Parse(Console.ReadLine());
+
+
+            //1.Sorunun Cevabı
+            bool sonuc1;
+            //sayi1 %= 2;
+            //sayi1 = sayi1 % 2;
+            sonuc1 = Convert.ToBoolean(sayi1 % 2);//
+            //sonuc1 = Convert.ToBoolean(sayi1);
+            //Console.WriteLine("1.Soru 1.Cevap: " + sonuc1);
+            //kısa yol
+            Console.WriteLine("1.Soru 1.Cevap: " + (sayi1 % 2 == 0));
+
+            sayi2 %= 2;
+            sonuc1 = Convert.ToBoolean(sayi2);
+            Console.WriteLine("1.Soru 2.Cevap: " + sonuc1);
+
+            sayi3 %= 2;
+            sonuc1 = Convert.ToBoolean(sayi3);
+            Console.WriteLine("1.Soru 3.Cevap: " + sonuc1);
+
+            sayi4 %= 2;
+            sonuc1 = Convert.ToBoolean(sayi4);
+            Console.WriteLine("1.Soru 4.Cevap: " + sonuc1);
+
+            sayi5 %= 2;
+            sonuc1 = Convert.ToBoolean(sayi5);
+            Console.WriteLine("1.Soru 5.Cevap: " + sonuc1);
+
+
+
+
+
+            //2.Sorunun Cevabı
+            int toplam = sayi1 + sayi2 + sayi3 + sayi4 + sayi5;
+            Console.WriteLine("2.Sorunun Cevabı: " + toplam);
+
+
+            //3.Sorunun Cevabı
+            sayi1 += 5;
+            sayi2 -= 10;
+            sayi3 *= 5;
+            Console.WriteLine("3.Soru 1.Cevap: " + sayi1);
+            Console.WriteLine("3.Soru 2.Cevap: " + sayi2);
+            Console.WriteLine("3.Soru 3.Cevap: " + sayi3);
+
+
+            //4.Sorunun Cevabı
+            bool sonuc2;
+            int ToplaBol = toplam / 9;
+            int ToplaBol2 = toplam / 11;
+            int ToplaBol3 = toplam / 13;
+            //sonuc2 = Convert.ToBoolean(ToplaBol);
+            //sonuc2 = Convert.ToBoolean(ToplaBol2);
+            //sonuc2 = Convert.ToBoolean(ToplaBol3);
+            //Console.WriteLine("4.Soru 1.Cevap: " + sonuc2);
+            //Console.WriteLine("4.Soru 2.Cevap: " + sonuc2);
+            //Console.WriteLine("4.Soru 3.Cevap: " + sonuc2);
+
+            sonuc2 = Convert.ToBoolean(ToplaBol);
+            Console.WriteLine("4.Soru 2.Cevap: " + sonuc2);
+            sonuc2 = Convert.ToBoolean(ToplaBol2);
+            Console.WriteLine("4.Soru 1.Cevap: " + sonuc2);
+            sonuc2 = Convert.ToBoolean(ToplaBol3);
+            Console.WriteLine("4.Soru 3.Cevap: " + sonuc2);
+
+
+            //5.Sorunun Cevabı
+            int toplam2 = sayi1 + sayi2 + sayi3;
+            int cikart = sayi4 - sayi5;
+            double toplaCikartBol = (double)(toplam2 / cikart);
+            Console.WriteLine("5.Sorunun Cevabı: " + toplaCikartBol);
         }
     }
 }
