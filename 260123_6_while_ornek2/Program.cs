@@ -28,33 +28,32 @@
  }
  Console.WriteLine("-----------------");
  Console.WriteLine(toplam);
- */
- /*
- int sayi2 = 55;
- int toplam2 = 0;
- while (sayi2<= 255)
- {
-     toplam2 = toplam2 + sayi2;
-     Console.WriteLine(sayi2%5);
- }
+int sayi2 = 2;
+//bir sayı 1 ve kendisinden başka bölüneni yoksa asaldır
+int toplamAsalSayilar = 0;
+while (sayi2 < 1000)
+{
+    int bolenSayi = 2;
+    bool asalMi = true;
+    while (sayi2 > bolenSayi)
+    {
+        if (sayi2 % bolenSayi == 0)
+        {
+            asalMi = false;
+            break;//içinde bulunduğu döngüyü sonlandırır.sayi2>bolenSayi koşullu döngüyü sonlandırır,diğer döngüye devam eder.
+        }
+        bolenSayi++;
+    }
+    if (asalMi)
+    {
+        toplamAsalSayilar = toplamAsalSayilar + sayi2;
+        Console.Write(sayi2 + ",");
+    }
+    sayi2++;
+}
+Console.WriteLine();
+Console.WriteLine("Toplam Asal Sayılar: "+toplamAsalSayilar);
 
- Console.WriteLine("----------------------");
- Console.WriteLine(toplam2);
- */
- int sayi3 = 500;
- while (0 <= sayi3)
- {
-     Console.WriteLine(sayi3%13);
- }
-
- 
- 
- /*
- while (sayi <= 10000)
- {
-     
- }
- */
 
             
         }
